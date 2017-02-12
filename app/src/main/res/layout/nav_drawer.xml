@@ -4,12 +4,14 @@
     android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/nav_imageview"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#ff00ffff" />
+            android:layout_height="@dimen/nav_imageview"
+            android:background="@color/nav_imageview" />
 
         <android.support.v7.widget.RecyclerView
-            android:background="#FFF5F500"
+            android:id="@+id/nav_recyclerview"
+            android:background="@color/nav_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

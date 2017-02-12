@@ -5,6 +5,10 @@
     <string name="login_submit_button">Submit</string>
     <string name="empty_password">Enter a password</string>
     <string name="empty_username">Enter a username</string>
+    <string name="profile_bttn1">Button 1</string>
+    <string name="profile_bttn2">Button 2</string>
+    <string name="profile_bttn3">Button 3</string>
+    <string name="profile_bttn_logout">Logout</string>
 
 
 </resources>
