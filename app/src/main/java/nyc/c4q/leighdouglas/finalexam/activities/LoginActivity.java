@@ -36,8 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                         .toString()
                         .isEmpty()) {
                     Toast.makeText(view.getContext(), getResources().getString(R.string.empty_username), Toast.LENGTH_SHORT).show();
-                }
-                if (editPassword
+                } else if (editPassword
                         .getText()
                         .toString()
                         .isEmpty()) {

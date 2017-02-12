@@ -5,8 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.List;
-
 import nyc.c4q.leighdouglas.finalexam.CustomClickListener;
 import nyc.c4q.leighdouglas.finalexam.R;
 
@@ -16,7 +14,8 @@ import nyc.c4q.leighdouglas.finalexam.R;
 
 public class NavAdapter extends RecyclerView.Adapter<NavViewHolder> {
     private CustomClickListener.Listener listener;
-    public NavAdapter(CustomClickListener.Listener listener){
+
+    public NavAdapter(CustomClickListener.Listener listener) {
         this.listener = listener;
     }
 

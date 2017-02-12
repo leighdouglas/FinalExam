@@ -1,9 +1,7 @@
 package nyc.c4q.leighdouglas.finalexam;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
@@ -39,6 +37,7 @@ public class CustomClickListener implements View.OnClickListener {
         } else if (view.getId() == R.id.button3 || position == 2) {
             context.startActivity(new Intent(context, SettingActivity.class));
         } else if (view.getId() == R.id.button4 || position == 3) {
+            customToast("Selected Logout Activity");
             listener.quitApplication();
         }
     }
@@ -48,7 +47,7 @@ public class CustomClickListener implements View.OnClickListener {
         Toast.makeText(context, customText, Toast.LENGTH_SHORT).show();
     }
 
-    public interface Listener{
+    public interface Listener {
         void quitApplication();
     }
 }
