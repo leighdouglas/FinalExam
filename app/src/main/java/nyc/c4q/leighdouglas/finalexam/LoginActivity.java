@@ -1,5 +1,6 @@
 package nyc.c4q.leighdouglas.finalexam;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +40,8 @@ public class LoginActivity extends AppCompatActivity {
                         .toString()
                         .isEmpty()) {
                     Toast.makeText(view.getContext(), getResources().getString(R.string.empty_password), Toast.LENGTH_SHORT).show();
+                } else {
+                    startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
                 }
             }
         });
