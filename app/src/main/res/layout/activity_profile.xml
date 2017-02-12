@@ -27,7 +27,7 @@
                 android:id="@+id/button1"
                 android:layout_width="@dimen/profile_bttn_height"
                 android:layout_height="@dimen/profile_bttn_height"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:scaleType="fitXY" />
 
             <TextView
@@ -35,9 +35,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/button1"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:gravity="center"
-                android:text="button1" />
+                android:text="@string/profile_bttn1" />
 
         </RelativeLayout>
 
@@ -49,18 +49,17 @@
                 android:id="@+id/button2"
                 android:layout_width="@dimen/profile_bttn_height"
                 android:layout_height="@dimen/profile_bttn_height"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:scaleType="fitXY" />
 
             <TextView
                 android:layout_width="wrap_content"
-
                 android:layout_height="wrap_content"
                 android:layout_below="@id/button2"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:gravity="center"
-                android:text="button2" />
+                android:text="@string/profile_bttn2" />
 
         </RelativeLayout>
 
@@ -72,7 +71,7 @@
                 android:id="@+id/button3"
                 android:layout_width="@dimen/profile_bttn_height"
                 android:layout_height="@dimen/profile_bttn_height"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:scaleType="fitXY" />
 
             <TextView
@@ -80,9 +79,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/button3"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:gravity="center"
-                android:text="button3" />
+                android:text="@string/profile_bttn3" />
 
         </RelativeLayout>
 
@@ -95,7 +94,7 @@
 
                 android:layout_width="@dimen/profile_bttn_height"
                 android:layout_height="@dimen/profile_bttn_height"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:scaleType="fitXY" />
 
             <TextView
@@ -104,9 +103,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/button4"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/profile_buttons_margin"
                 android:gravity="center"
-                android:text="button4" />
+                android:text="@string/profile_bttn_logout" />
 
         </RelativeLayout>
 
