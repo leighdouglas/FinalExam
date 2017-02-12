@@ -1,6 +1,5 @@
 package nyc.c4q.leighdouglas.finalexam.navrecyclerview;
 
-import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -14,13 +13,13 @@ import nyc.c4q.leighdouglas.finalexam.R;
  */
 
 public class NavViewHolder extends RecyclerView.ViewHolder implements CustomClickListener.Listener {
-    private CustomClickListener.Listener listener;
+    private CustomClickListener.Listener mlistener;
     private ImageView icon;
     private TextView menuText;
 
     public NavViewHolder(View itemView, CustomClickListener.Listener listener) {
         super(itemView);
-        this.listener = listener;
+        mlistener = listener;
         icon = (ImageView) itemView.findViewById(R.id.nav_icon);
         menuText = (TextView) itemView.findViewById(R.id.nav_text);
     }
@@ -53,6 +52,6 @@ public class NavViewHolder extends RecyclerView.ViewHolder implements CustomClic
 
     @Override
     public void quitApplication() {
-        listener.quitApplication();
+        mlistener.quitApplication();
     }
 }

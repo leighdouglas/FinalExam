@@ -5,12 +5,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 
-import nyc.c4q.leighdouglas.finalexam.CustomClickListener;
 import nyc.c4q.leighdouglas.finalexam.R;
-import nyc.c4q.leighdouglas.finalexam.navrecyclerview.NavAdapter;
 import nyc.c4q.leighdouglas.finalexam.settingsrecyclerview.SettingAdapter;
 
 /**
