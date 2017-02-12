@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinalExam</string>
+    <string name="login_username_edit">Username</string>
+    <string name="login_password_edit">Password</string>
+    <string name="login_submit_button">Submit</string>
+    <string name="empty_password">Enter a password</string>
+    <string name="empty_username">Enter a username</string>
+
+
+</resources>
