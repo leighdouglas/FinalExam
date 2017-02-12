@@ -29,7 +29,7 @@ public class SettingActivity extends AppCompatActivity {
 
     private void initViews() {
 
-        settingRV= (RecyclerView) findViewById(R.id.settings_rv);
+        settingRV = (RecyclerView) findViewById(R.id.settings_rv);
         settingRV.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         settingRV.setAdapter(new SettingAdapter());
 
